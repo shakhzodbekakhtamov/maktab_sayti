@@ -1,0 +1,11 @@
+#401 Авторизация не выполнена
+ErrorDocument 401 https://zar8-itmaktab.uz/private/errors/401.html
+#403 Доступ запрещен
+ErrorDocument 403 https://zar8-itmaktab.uz/private/errors/403.html
+#404 Страница не найдена
+ErrorDocument 404 https://zar8-itmaktab.uz/private/errors/404.html
+#500 Внутренняя ошибка сервера
+ErrorDocument 500 https://zar8-itmaktab.uz/private/errors/500.html
+
+RewriteEngine On
+RewriteRule ^index\.php$ / [R=301,L]
